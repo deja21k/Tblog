@@ -1,0 +1,24 @@
+.header {
+  background: url("/images/header-bg.jpg") no-repeat center;
+  // background-position: center;
+  min-height: 645px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .header__wrapper {
+    padding-top: 105px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__title {
+    color:#e86262;
+  }
+  .header__body {
+    color:#e86262;
+    padding-top: 20px;
+  }
+}
